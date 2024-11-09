@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e9ecef;
+}
+
+.form-signin {
+  background-color: #15181E;
+  color: white;
+  width: 100%;
+  max-width: 630px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 2%;
+}
+
+.form-signin .checkbox {
+  font-weight: 300;
+}
+
+.my-4{
+  background-color: white;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+  color: #15181E;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 20px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+}

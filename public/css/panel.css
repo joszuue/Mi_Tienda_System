@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef;
+}
+
+.navbar{
+    background-color: #15181E;
+    color: white;
+}
+
+.color {
+    background-color: #15181E;
+    color: white !important;
+}
+
+.oculto {
+  display: none;
+}
+
+.eliminar-btn {
+  position: relative;
+  top: -50px; /* Move up */
+  right: -10px; /* Move right */
+}
+
+.navbar-toggler-icon{
+    color: white ;
+    background-color: #E7EEFF;
+}
+
+.nav{
+    font-size: 17px;
+}
+
+.linkPerfil{
+    text-decoration: none;
+    color: white;
+}
+
+.hoverColor :hover{
+    color: white;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 380px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon{
+  background-color: black;
+  border-radius: 50%;
+}
+
+.columns {
+    width: 100%;
+  }
+
+.columns td {
+  width: 50%;
+}
+
+.error-message {
+  color: red;
+  display: none;
+}
+.valid {
+  border-color: green;
+}
+.invalid {
+  border-color: red;
+}
+
+#piechart_div, #barchart_div, #barchart2_div, #piechart2_div {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .columns td {
+    display: block;
+    width: 100%;
+    margin-left: 20px; /* Desplaza los elementos hacia la izquierda */
+    transform: translateX(-20px); /* Ajuste adicional para mayor desplazamiento */
+  }
+
+  #piechart_div, #barchart_div, #barchart2_div, #piechart2_div {
+    height: 300px;
+  }
+}
+
+.table-container {
+  max-height: 450px; /* Ajusta la altura según sea necesario */
+  overflow-y: auto;
+  position: relative;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+      
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  z-index: 0;
+}
+
+tbody td {
+    color: black;
+}
